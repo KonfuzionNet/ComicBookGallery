@@ -13,7 +13,7 @@ namespace ComicBookGallery.Controllers
         {
             var comicBook = new ComicBook()
             {
-                SeriesTitle = "The Amazing SpiderMan",
+                SeriesTitle = "The Amazing Spider-Man",
                 IssueNumber = 700,
                 DescriptionHtml = "<p>Final issue! Witness the final hours of Doctor Ovtopus' live and his one, last, great act of revenge! Even if Spider-Man survives...<strong>Will Peter Parker?</strong></p>",
                 Artists = new Artist[]
@@ -24,7 +24,7 @@ namespace ComicBookGallery.Controllers
                            new Artist() {Name ="Edgar Delgado", Role="Colors" },
                            new Artist() {Name ="Chris Eliopoulos", Role="Letters" },
                         }
-        };
+            };
                         
             return View(comicBook);
         }
